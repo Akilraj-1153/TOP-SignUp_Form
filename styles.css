@@ -27,25 +27,15 @@ body {
 }
 
 .Signupbox {
-    width: 40%;
+    width: 45%;
     height: 100%;
     padding: 20px;
     background-color: white;
     border-radius: 100px 0 0 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: moveFromRight 2s ease-out; 
+    
+    
 }
 
-@keyframes moveFromRight {
-    from {
-        transform: translateX(100%); 
-    }
-    to {
-        transform: translateX(0); 
-    }
-}
 
 form {
     display: flex;
@@ -56,6 +46,7 @@ form {
     max-width: 600px;
     align-content: space-between;
     justify-content: center;
+    
 }
 
 label {
@@ -94,4 +85,25 @@ button {
     border-radius: 10px;
     font-weight: bold;
     font-family: cursive;
+    margin-top: 50px;
+   
+}
+button:hover{
+    background-color: black;
+    color: white;
+    
+}
+.text{
+    /* border: 1px solid black; */
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.innerbox{
+    margin-top: 50px;
+    gap: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
